@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <title>TEMAS_INFO_VI-Lenguajes y Gramáticas regulares</title>
+  </head>
+ <body style="background: url('fondo2.jpeg') no-repeat; background-size: cover;">
+    <div class="container-fluid bg-primary text-light">
+        <div class= container >
+            <div class="row">
+             <div class="col-md-12">
+                 <div class="page-header">
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+     <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+       <a class="nav-link active" aria-current="page" href="#">LENGUAJE REGULAR</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="DEFINICION LGR.html">DEFINICION</a>
+        </li>
+       <li class="nav-item">
+            <a class="nav-link" href="GR.html">GRAMATICA REGULAR</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="CONCEPTOS LGR.html">CONCEPTOS</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="TEMAS PRINCIPALES.html">REGRESAR</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <p class="lead"><p class="text-center"><strong><font color="black" size="20px">LENGUAJE REGULAR</em></p></p></strong></font>
+<br>
+<section>
+    <div class="mx-auto" style="width: 1790px;">
+    <font size="5px"><p align="justify">El estudio de los lenguajes formales es muy complejo, por lo que es buena estrategia comenzar el estudio por una parte de ellos, los lenguajes regulares.</p></font>
+    
+    <br>
+    <font size="5px"><p align="justify">Los lenguajes regulares sobre un alfabeto se obtienen a partir de unas reglas muy precisas. A continuación se incluyen las reglas y algunos lenguajes regulares sobre Σ ={a,b} obtenidos con las reglas.</p></font>
+
+    <font size="5px"><p align="justify">1. Vacío y el lenguaje conformado por la palabra vacía son lenguajes regulares. a) ∅ b) {ε}</p></font>
+    <font size="5px"><p align="justify">2. Los lenguajes formados por una sola palabra de un solo símbolo son regulares. c) {a} d) {b} </p></font>
+    <font size="5px"><p align="justify">3. Los lenguajes que resultan de unir dos lenguajes regulares son regulares.</p></font>
+    <font size="5px"><p align="justify">-->e) {a,b} que es la unión de c) y d)</p></font>
+    <font size="5px"><p align="justify">-->f) { ε, b} que es la unión de b) y d)</p></font>
+    <font size="5px"><p align="justify">-->g) { ε, a, b} que es la unión de b) y e)</p></font>
+    <font size="5px"><p align="justify">4. Los lenguajes que resultan de concatenar dos lenguajes regulares son regulares. </p></font>
+    <font size="5px"><p align="justify">-->h) {a, aa, ba} que es la concatenación de g) y c)</p></font>
+    <font size="5px"><p align="justify">-->i) {a, ab, b, bb} que es la concatenación de e) y f)</p></font>
+    <font size="5px"><p align="justify">5. Los lenguajes que resultan de realizar una cerradura de estrella a un lenguaje regular son regulares.</p></font>
+    <font size="5px"><p align="justify">-->j) { ε, a, a^2, a^3,...} 2 3  a a a que es la cerradura de estrella de c) </p></font>
+    <font size="5px"><p align="justify">-->k) { ε, b, b^2, b^3,...} 2 3  b b b que es la cerradura de estrella de d) </p></font>
+    </div>
+</section>
+    
+
+
+    <div style="background: #ccc; height: 90vh;"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+  </body>
+</html>
